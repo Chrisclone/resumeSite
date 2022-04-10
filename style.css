@@ -1,0 +1,36 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-element {
+    margin-top:45vh;
+    margin-left: 25vw;
+    display: table-cell;
+}
+
+.carousel {
+    position: fixed;
+    display: block;
+    right:0;
+    top: 30vh;
+}
+
+.carousel-element {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #313636;
+    border-radius: 50%;
+    display: block;
+    margin: 15px;
+}
+.image {
+    width:50%;
+}
+
+.page {
+    display:table;
+    table-layout: fixed;
+    height:100vh;
+}
